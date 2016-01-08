@@ -19,3 +19,13 @@ body {
    background: -webkit-linear-gradient(top right, #2196f3, #3949ab);
    background: linear-gradient(top right, #2196f3, #3949ab);
 }
+
+section {
+  min-height: 30em;
+}
+section:nth-child(n+2) {
+  border-top: 1px solid #f0f0f0;
+}
+section:nth-child(even) {
+  background: #fafafa;
+}

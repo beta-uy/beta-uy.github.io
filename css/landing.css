@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+#logo {
+  position: absolute;
+  top: 160px;
+  min-width: 100%;
+  margin: auto;
+  text-align: center;
+  opacity: 0.93;
+}
+
+#particles-js {
+   height: 400px;
+   background: #2196f3;
+   background: -moz-linear-gradient(top right, #2196f3, #3949ab);
+   background: -o-linear-gradient(top right, #2196f3, #3949ab);
+   background: -webkit-linear-gradient(top right, #2196f3, #3949ab);
+   background: linear-gradient(top right, #2196f3, #3949ab);
+}

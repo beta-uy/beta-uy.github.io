@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>beta.uy</title>
+    <link rel="stylesheet" type="text/css" href="/css/landing.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="particles-js">
+      <div id="logo">
+        <img src="beta_uy.png" style="width: 256px; height: auto;">
+      </div>
+    </div>
+
+    {{ content }}
+
+    <!-- particles.js -->
+    <script src="vendor/particles/particles.min.js"></script>
+    <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-/*body {
+body {
   margin: 0;
 }
 
@@ -10,9 +10,24 @@
   text-align: center;
   opacity: 0.93;
 }
+#logo > img {
+  height: 80px;
+  width: auto;
+}
+
+#slogan {
+  color: white;
+  opacity: 0.93;
+  font-weight: 300;
+  margin: auto;
+  min-width: 100%;
+  position: absolute;
+  top: 280px;
+  text-align: center;
+}
 
 #particles-js {
-   height: 400px;
+   height: 360px;
    background: #2196f3;
    background: -moz-linear-gradient(top right, #2196f3, #3949ab);
    background: -o-linear-gradient(top right, #2196f3, #3949ab);
@@ -28,4 +43,4 @@ section:nth-child(n+2) {
 }
 section:nth-child(even) {
   background: #fafafa;
-}*/
+}

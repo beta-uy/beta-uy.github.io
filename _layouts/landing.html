@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>beta.uy</title>
-    <link rel="stylesheet" type="text/css" href="/css/landing.css">
-  </head>
+
+  {% include head.html %}
+
   <body>
+
+    {% include header.html %}
+
     <!-- Header -->
     <div id="particles-js">
       <div id="logo">
-        <img src="beta_uy.png" style="width: 256px; height: auto;">
+        <img src="assets/beta_uy.png">
+      </div>
+      <div id="slogan">
+        <h2>{{ site.slogan }}</h2>
       </div>
     </div>
 

@@ -16,14 +16,16 @@ body {
 }
 
 #slogan {
-  color: white;
+  text-align: center;
   opacity: 0.93;
+  color: white;
   font-weight: 300;
-  margin: auto;
   min-width: 100%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
   position: absolute;
   top: 280px;
-  text-align: center;
 }
 
 #particles-js {
@@ -36,7 +38,8 @@ body {
 }
 
 section {
-  min-height: 30em;
+  min-height: 10em;
+  padding: 5em 10%;
 }
 section:nth-child(n+2) {
   border-top: 1px solid #f0f0f0;

@@ -3,12 +3,10 @@ title: beta.uy
 slogan: Crafting the right products to solve real problems
 email: hi@beta.uy
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A place to share our knowledge on engineering, design, and product-making
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://beta.uy" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: beta-uy
 github_username:  beta-uy
 
 # Build settings

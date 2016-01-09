@@ -39,11 +39,17 @@ body {
 
 section {
   min-height: 10em;
-  padding: 5em 10%;
+  padding: 5em 5%;
+}
+@media screen and (min-width: 64em)
+{
+  section {
+    padding: 5em 20%;
+  }
 }
 section:nth-child(n+2) {
   border-top: 1px solid #f0f0f0;
 }
-section:nth-child(even) {
+section:nth-child(odd) {
   background: #fafafa;
 }

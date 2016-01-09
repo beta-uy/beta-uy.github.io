@@ -25,7 +25,7 @@ body {
   padding: 10px;
   box-sizing: border-box;
   position: absolute;
-  top: 280px;
+  top: 260px;
 }
 
 #particles-js {
@@ -52,4 +52,19 @@ section:nth-child(n+2) {
 }
 section:nth-child(odd) {
   background: #fafafa;
+}
+section:nth-child(even) > h1 {
+  text-align: right;
+}
+
+@media screen and (max-width: 35.5em)
+{
+  p {
+    line-height: 1.9em;
+  }
+}
+
+.feature-img,
+.feature-title {
+  margin-top: 24px;
 }

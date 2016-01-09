@@ -68,3 +68,21 @@ section:nth-child(even) > h1 {
 .feature-title {
   margin-top: 24px;
 }
+
+.feature-img {
+  min-height: 144px;
+}
+.feature-img > img {
+  max-height: 144px;
+  width: auto;
+}
+
+.feature-img,
+.feature-title,
+.feature-desc {
+  padding: 0 10px;
+}
+
+.feature-title h3 {
+  color: rgba(0,0,0,0.54);
+}
